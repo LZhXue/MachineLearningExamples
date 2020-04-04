@@ -5,7 +5,7 @@ from sklearn import preprocessing
 # from sklearn.externals.six import StringIO
 
 # Read in the csv file and put features into list of dict and list of class label
-allElectronicsData = open(r'E:/Pre_Study_of_Postguaduate/机器学习/第04阶段-机器学习深度学习篇-1-基础进阶强化-9G/第一阶段-深度学习基础/代码与素材/代码与素材(1)/01DTree/AllElectronicscsv.csv', 'rt')
+allElectronicsData = open(r'E:/Pre_Study_of_Postguaduate/MachineLearningExamples/DecisionTree/AllElectronicscsv.csv', 'rt')
 reader = csv.reader(allElectronicsData)  # 按行读取
 headers = next(reader)
 
